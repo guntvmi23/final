@@ -1,0 +1,624 @@
+body {
+    margin: 0px;
+
+}
+.link{
+    padding-top: 30px;
+    font-size: 20px;
+    color: white;
+}
+.navbar {
+    background-color: #80d0c7;
+    padding: 30px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.navbar-item {
+    list-style-type: none;
+    margin: 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.centernav {
+    display: flex;
+}
+
+.centernav li {
+    margin-right: 50px;
+}
+
+.container11 {
+    display: flex;
+}
+
+#sss {
+    margin-right: 120px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+.navber-item li {
+    display: inline;
+}
+
+.header {
+    text-align: center;
+}
+
+.header_bar {
+    text-align: center;
+    font-size: 60px;
+    font-weight: bold;
+    color: white;
+}
+
+.header-text {
+    font-size: 25px;
+    color: #13547a;
+    text-align: center;
+}
+
+.background1 {
+    background-image: linear-gradient(15deg, #13547a 0%, #80d0c7 100%);
+    padding-bottom: 150px;
+}
+
+.search-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.search-input-wrapper {
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid #ff0000;
+    border-radius: 50px;
+    width: 750px;
+    height: 60px;
+    margin: 5px 5px 5px 5px;
+    font-size: 20px;
+    background-color: white;
+}
+
+#search-input {
+    border: none;
+    margin: 5px;
+    padding: 4px;
+    font-size: 20px;
+    width: 500px;
+}
+
+#search-button {
+    background-color: darkcyan;
+    color: white;
+    border: none;
+    width: 120px;
+    margin: 5px;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+#al {
+    padding: 160px 140px;
+    border-radius: 40px;
+}
+
+#el {
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    background-image: url("./hinhAnh/1.jpg");
+    border: none;
+    height: 450px;
+    width: 480px;
+    margin-left: 20px;
+}
+
+.vari-text {
+    font-size: 30px;
+    color: white;
+    padding-top: 20px;
+}
+
+.pre-vari-text {
+    font-size: 16px;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.background-1 {
+    vertical-align: middle;
+    height: 450px;
+    width: 480px;
+}
+
+.contain1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.submit-button {
+    border: none;
+    border-radius: 20px;
+    background-color: #80d0c7;
+    color: white;
+    height: 40px;
+    width: 120px;
+    font-size: 18px;
+    margin-top: 40px;
+    margin-left: 0;
+}
+
+.contain2 {
+    display: flex;
+    padding-top: 230px;
+    padding-left: 20px;
+}
+
+.numbering-var {
+    padding-top: 10px;
+    margin-left: 200px;
+    margin-top: 20px;
+    width: 20px;
+    height: 30px;
+    border-radius: 20px;
+    color: white;
+    background-color: blue;
+}
+
+.head-text {
+    display: flex;
+}
+
+.text-var {
+    display: flex;
+    flex-direction: column;
+}
+
+/* .secsion{
+    background-color: #80d0c7;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 100px;
+    border-radius: 0 0 100px 100px;
+} */
+.name_topic {
+    text-align: center;
+    padding-top: 200px;
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.navi {
+    display: flex;
+    justify-content: center;
+}
+
+.bottun {
+    margin-left: 30px;
+    margin-top: 30px;
+    font-size: 25px;
+}
+
+.bottun_1 {
+    margin-top: 30px;
+    font-size: 25px;
+}
+
+.name_how {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    font-size: 45px;
+    font-weight: bold;
+    color: white;
+}
+
+a {
+    display: inline-block;
+    color: darkcyan;
+}
+
+/* tab */
+.tab {
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.img_tab1 {
+    display: block;
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    margin-top: 35px;
+}
+
+.img_tab2 {
+    display: block;
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    margin-top: 35px;
+}
+
+.img_tab3 {
+    display: block;
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    margin-top: 35px;
+}
+
+.number_tab1 {
+    margin-top: 20px;
+    background-color: aqua;
+    height: 25px;
+    width: 25px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.number_tab2 {
+    margin-top: 20px;
+    background-color: aqua;
+    height: 25px;
+    width: 25px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.number_tab3 {
+    margin-top: 20px;
+    background-color: aqua;
+    height: 25px;
+    width: 25px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+/* TAB 1 */
+.tab1_word_item1 {
+    font-size: 28px;
+}
+
+.tab1_word_item2 {
+    font-size: 24px;
+}
+
+.tab1_item {
+    display: flex;
+}
+
+.number_tab1 {
+    padding-bottom: 0px;
+}
+
+.tab1_word_item2 {
+    display: inline-block;
+}
+
+/* TAB 2 */
+.tab2_word_item1 {
+    font-size: 28px;
+}
+
+.tab2_word_item2 {
+    font-size: 24px;
+}
+
+.tab2_item {
+    display: flex;
+}
+
+.number_tab2 {
+    padding-bottom: 0px;
+}
+
+.tab2_word_item2 {
+    display: inline-block;
+}
+
+/* TAB 3 */
+.tab3_word_item1 {
+    font-size: 28px;
+}
+
+.tab3_word_item2 {
+    font-size: 24px;
+}
+
+.tab3_item {
+    display: flex;
+}
+
+.number_tab3 {
+    padding-bottom: 0px;
+}
+
+.tab3_word_item2 {
+    display: inline-block;
+}
+
+/* TAB 1 */
+.tab1 {
+    box-shadow: 0 1rem 3rem rgba(0, 0, 0, .175) !important;
+    border-radius: 10%;
+}
+
+.tab1_shadow_custom {
+    padding: 30px;
+}
+
+.tab2 {
+    box-shadow: 0 1rem 3rem rgba(0, 0, 0, .175) !important;
+    border-radius: 10%;
+}
+
+.tab2_shadow_custom {
+    padding: 30px;
+}
+
+.tab3 {
+    box-shadow: 0 1rem 3rem rgba(0, 0, 0, .175) !important;
+    border-radius: 10%;
+}
+
+.tab3_shadow_custom {
+    padding: 30px;
+}
+
+/* HOW DOSE IT WORK */
+.How {
+    margin-top: 100px;
+    /* background-image: url("https://templatemo.com/templates/templatemo_590_topic_listing/images/colleagues-working-cozy-office-medium-shot.jpg"); */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    background-color: #80d0c7;
+}
+
+.srch,
+.bookmark_keep,
+.read {
+    font-size: 37px;
+    color: white;
+}
+
+.p_1,
+.p_2,
+.p_3 {
+    margin-left: 300px;
+    margin-right: 300px;
+    color: white;
+    font-size: 25px;
+}
+
+.asking {
+    display: flex;
+    /* padding-top: 100px; */
+    margin-left: 250px;
+}
+
+.checkYT,
+.ask {
+    margin: 150px;
+}
+
+.ask {
+    font-size: 20px;
+    color: white;
+}
+
+.checkYT {
+    padding: 15px;
+    border-radius: 50px;
+    font-size: 20px;
+    border: 2px solid white;
+    background-image: initial;
+    background-position-x: initial;
+    background-position-y: initial;
+    background-size: initial;
+    background-repeat: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-image: initial;
+    background-position-x: initial;
+    background-position-y: initial;
+    background-size: initial;
+    background-repeat: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: transparent;
+    color: white;
+}
+
+.questions-title-text {
+    font-size: 50px;
+}
+
+.questions-image-item {
+    width: 500px;
+    height: auto;
+}
+
+.questions-content {
+    display: flex;
+    justify-content: space-around;
+}
+
+.questions {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.questions-image {
+    margin-right: 100px;
+}
+
+.questions-text-title {
+    font-size: 30px;
+    background-color: #b5e0db;
+    border-radius: 50px;
+    padding: 15px;
+}
+
+.questions-text-content {
+    font-size: 20px;
+}
+
+.getInTouch-title-text {
+    font-size: 50px;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.getInTouch-content {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.getInTouch-content-item {
+    margin: 20px;
+}
+
+.getInTouch {
+    background-color: #d6ecea;
+}
+
+.getInTouch-content-item-title {
+    font-size: 27px;
+}
+
+.getInTouch-content-item-text1 {
+    font-size: 23px;
+}
+
+.getInTouch-content-item-text2 {
+    font-size: 20px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+
+.footer-item-text {
+    color: #80d0c7;
+}
+
+.footer-item-select {
+    padding: 10px;
+    border-radius: 20px;
+    background-color: #80d0c7;
+    color: white;
+}
+
+.footer-item-text-inf {
+    font-size: 20px;
+}
+
+.topic_al {
+    font-size: 30px;
+}
+
+.word_al {
+    padding-left: 30px;
+    font-size: 20px;
+}
+
+.webDesign-item1 {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.webDesign-item3-img {
+    width: 500px;
+}
+
+.secsion {
+    display: flex;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.webDesign {
+    margin-right: 50px;
+    box-shadow: 0 1rem 3rem rgba(0, 0, 0, .175) !important;
+    border-radius: 20px;
+    padding: 20px;
+    width: 37%;
+}
+
+.webDesign-item2 {
+    padding-right: 50px;
+    font-size: 25px;
+}
+
+.webDesign-item1-num {
+    background-color: #74b9e1;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.webDesign-item1-title {
+    font-size: 27px;
+}
+
+.finance-item1 {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.finance {
+    background-image: url("https://templatemo.com/templates/templatemo_590_topic_listing/images/businesswoman-using-tablet-analysis.jpg");
+    box-shadow: 0 1rem 3rem rgba(0, 0, 0, .175) !important;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.finance-item1-num {
+    background-color: #74b9e1;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.finance-item2 {
+    padding-right: 100px;
+    font-size: 25px;
+    color: black;
+}
+
+.finance-item1-title {
+    font-size: 27px;
+    color: black;
+}
+.finance-item3 {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #80d0c7;
+    border-radius: 50px;
+    font-size: 20px;
+    color: white;
+    border: #80d0c7;
+    cursor: pointer;
+}
+.fa-search{
+    font-size: 40px;
+}
